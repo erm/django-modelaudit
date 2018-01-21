@@ -1,0 +1,7 @@
+{{ object.pk }}
+{{ object.description }}
+
+{% for record in history %}
+{{ record }}
+{{ record.changed_fields }}
+{% endfor %}
